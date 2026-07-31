@@ -500,7 +500,19 @@ footer {
     padding: 1.5rem 0;
     font-size: 2.5rem;
   }
+/* Ocultar el triángulo del desplegable */
 
+.about-dropdown summary {
+  list-style: none;
+}
+
+.about-dropdown summary::-webkit-details-marker {
+  display: none;
+}
+
+.about-dropdown summary::marker {
+  content: "";
+}
   .about-dropdown-content {
     padding-bottom: 2rem;
   }
