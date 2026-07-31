@@ -228,27 +228,20 @@ h3 { font-size: 1.8rem; margin-bottom: .55rem; }
   color: var(--gold);
   font-size: 1.5rem;
 }
-
-/* Últimos temas */
-
-/* Últimos temas: tarjetas equilibradas */
+/* ===== ÚLTIMOS TEMAS ===== */
 
 #blog .article-list {
-  width: min(1200px, calc(100% - 3rem));
-  max-width: none;
+  width: min(1100px, calc(100% - 3rem));
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(3, minmax(240px, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.5rem;
-  border: 0;
 }
 
 #blog .article-list article {
   display: flex;
   flex-direction: column;
-  width: 100%;
   min-width: 0;
-  min-height: 300px;
   padding: 2rem;
   gap: 1rem;
   border: 1px solid var(--line);
@@ -274,10 +267,8 @@ h3 { font-size: 1.8rem; margin-bottom: .55rem; }
 
 #blog .article-list h3 {
   margin: 0;
-  font-size: clamp(1.45rem, 2vw, 1.85rem);
-  line-height: 1.18;
-  overflow-wrap: normal;
-  word-break: normal;
+  font-size: 1.65rem;
+  line-height: 1.2;
 }
 
 #blog .article-list article > p:last-child {
@@ -285,6 +276,19 @@ h3 { font-size: 1.8rem; margin-bottom: .55rem; }
   color: var(--muted);
   font-size: 0.98rem;
   line-height: 1.7;
+}
+
+@media (max-width: 1000px) {
+  #blog .article-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 650px) {
+  #blog .article-list {
+  width: min(calc(100% - 2rem), 520px);
+    grid-template-columns: 1fr;
+  }
 }
 
 
