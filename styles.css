@@ -416,3 +416,92 @@ footer {
   margin-top: 2rem;
   font-weight: 600;
 }
+/* Sección Sobre nosotros desplegable */
+
+.about-section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.about-dropdown {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-dropdown > .eyebrow {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.about-dropdown details {
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.about-dropdown summary {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  cursor: pointer;
+  list-style: none;
+  font-family: serif;
+  font-size: clamp(2.2rem, 6vw, 4.5rem);
+  line-height: 1.05;
+}
+
+.about-dropdown summary::-webkit-details-marker {
+  display: none;
+}
+
+.dropdown-icon {
+  flex-shrink: 0;
+  color: var(--gold);
+  font-family: Arial, sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  transition: transform 0.3s ease;
+}
+
+.about-dropdown details[open] .dropdown-icon {
+  transform: rotate(45deg);
+}
+
+.about-dropdown-content {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1rem 0 3rem;
+}
+
+.about-dropdown-content p {
+  margin-bottom: 1.5rem;
+  line-height: 1.9;
+  text-align: left;
+}
+
+.about-dropdown-content h3 {
+  margin: 2.5rem 0 1rem;
+  font-size: 1.7rem;
+  text-align: left;
+}
+
+.about-dropdown-content .about-intro {
+  font-size: 1.15rem;
+}
+
+.about-dropdown-content .about-closing {
+  margin-top: 2.5rem;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .about-dropdown summary {
+    padding: 1.5rem 0;
+    font-size: 2.5rem;
+  }
+
+  .about-dropdown-content {
+    padding-bottom: 2rem;
+  }
+}
