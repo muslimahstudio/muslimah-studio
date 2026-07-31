@@ -336,7 +336,82 @@ footer {
   font-size: 1.15rem;
   font-weight: 600;
 }
+/* Recursos gratuitos */
 
+.resources-section .section-heading {
+  max-width: 760px;
+  margin: 0 auto 3rem;
+  text-align: center;
+}
+
+.resources-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.resource-card {
+  min-height: 320px;
+  padding: 2rem;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.02);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.resource-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--gold);
+}
+
+.resource-featured {
+  background:
+    linear-gradient(
+      145deg,
+      rgba(212, 175, 55, 0.10),
+      rgba(255, 255, 255, 0.02)
+    );
+}
+
+.resource-label,
+.resource-number {
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.resource-card h3 {
+  font-size: 2rem;
+  line-height: 1.1;
+  margin: 0 0 1.25rem;
+}
+
+.resource-card p {
+  color: var(--muted);
+  line-height: 1.75;
+  margin-bottom: 2rem;
+}
+
+.resource-card a {
+  margin-top: auto;
+  color: var(--gold);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+@media (max-width: 800px) {
+  .resources-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .resource-card {
+    min-height: auto;
+  }
+}
 .about-closing {
   margin-top: 2rem;
   font-weight: 600;
