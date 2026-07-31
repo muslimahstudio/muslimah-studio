@@ -516,8 +516,9 @@ footer {
     padding: 1.5rem 0;
     font-size: 2.5rem;
   }
+/* Ajuste del desplegable "Sobre Muslimah Studio" */
 
-  .about-dropdown-content {
-    padding-bottom: 2rem;
-  }
+.about-dropdown summary {
+  font-size: clamp(2.2rem, 4.5vw, 3.8rem);
+  gap: 1rem;
 }
