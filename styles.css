@@ -177,6 +177,7 @@ h3 { font-size: 1.8rem; margin-bottom: .55rem; }
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.2rem;
+  align-items: stretch;
 }
 
 .card,
@@ -186,6 +187,8 @@ h3 { font-size: 1.8rem; margin-bottom: .55rem; }
   background: var(--surface);
   border: 1px solid var(--line);
   transition: .25s ease;
+  display: flex;
+flex-direction: column;
 }
 
 .card:hover,
