@@ -218,7 +218,7 @@ h3 { font-size: 1.8rem; margin-bottom: .55rem; }
   display: grid;
   place-items: center;
   text-align: center;
-  padding: 1rem;
+  padding: 1.4rem;;
   margin-bottom: 1.3rem;
   border: 1px solid var(--gold-soft);
   background:
@@ -226,7 +226,7 @@ h3 { font-size: 1.8rem; margin-bottom: .55rem; }
     #101010;
   font-family: "Cormorant Garamond", serif;
   color: var(--gold);
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 /* ===== ÚLTIMOS TEMAS ===== */
 
