@@ -137,7 +137,7 @@ h1 em { color: var(--gold); font-weight: 500; }
 h2 {
     font-size: clamp(2.6rem, 6vw, 4.6rem);
     margin-bottom: .75rem;
-    color: #111111;
+    
 }
 
 .hero h2 {
