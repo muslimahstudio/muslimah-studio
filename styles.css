@@ -142,7 +142,8 @@ h2 { font-size: clamp(2.6rem, 6vw, 4.6rem);
 }
 h3 { font-size: 1.8rem; margin-bottom: .55rem; }
 section {
-    scroll-margin-top: 90px;
+    scroll-margin-top: 120px;
+
 }
 
 .hero-text {
