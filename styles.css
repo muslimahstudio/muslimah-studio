@@ -140,11 +140,15 @@ h2 { font-size: clamp(2.6rem, 6vw, 4.6rem);
     line-height: 1.05;
     margin-bottom: .6rem;
 }
-h3 { font-size: 1.8rem; margin-bottom: .55rem; }
-section {
-    scroll-margin-top: 120px;
-
+h3 {
+    font-size: 1.8rem;
+    margin-bottom: .55rem;
 }
+
+section {
+    scroll-margin-top: 130px;
+}
+
 
 .hero-text {
   color: var(--muted);
