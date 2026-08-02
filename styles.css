@@ -354,8 +354,6 @@ flex-direction: column;
     min-height: auto;
   }
 }
-}
- 
 /* Pega aquí el nuevo código */
 
 .product-content{
@@ -392,10 +390,9 @@ flex-direction: column;
 
 .newsletter h2 {
     font-size: clamp(2.2rem, 4vw, 3.2rem);
-    line-height: 1.05;
-    margin-bottom: .6rem;
     color: #111111;
-    -webkit-text-fill-color: #111111;
+    margin-bottom: .6rem;
+    line-height: 1.05;
 }
 
 .newsletter-form {
