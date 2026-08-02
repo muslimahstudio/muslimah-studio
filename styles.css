@@ -780,16 +780,19 @@ footer {
   }
 }
 .nav-cta{
-    background: #c8a76a;
+    background: linear-gradient(135deg,#c69c4a,#e7c67a);
     color: #111;
-    padding: 10px 18px;
+    padding: 12px 22px;
     border-radius: 999px;
-    font-weight: 600;
+    font-weight: 700;
     text-decoration: none;
+    border: 1px solid #d4b56e;
+    box-shadow: 0 8px 22px rgba(198,156,74,.25);
     transition: all .3s ease;
 }
 
 .nav-cta:hover{
-    background: #d8b97f;
+    background: linear-gradient(135deg,#d8b97f,#f0d79c);
     transform: translateY(-2px);
+    box-shadow: 0 12px 28px rgba(198,156,74,.35);
 }
