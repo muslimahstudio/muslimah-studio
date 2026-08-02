@@ -804,3 +804,9 @@ footer {
     color: #111111 !important;
     -webkit-text-fill-color: #111111 !important;
 }
+.section-heading h2,
+.resources-section h2,
+.newsletter h2 {
+    color: #111111;
+    -webkit-text-fill-color: #111111;
+}
