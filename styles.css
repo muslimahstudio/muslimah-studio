@@ -373,7 +373,7 @@ flex-direction: column;
 
 .newsletter p { color: var(--muted); }
 
-.newsletter-form { display: grid; gap: 1rem; margin-top: 2rem; }
+.newsletter-form { display: grid; gap: 1rem; }
 .newsletter-form label { display: grid; gap: .35rem; font-size: .85rem; }
 .newsletter-form input {
   width: 100%;
