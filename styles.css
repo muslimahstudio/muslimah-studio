@@ -390,24 +390,20 @@ flex-direction: column;
 }
 
 
-.newsletter{
-    max-width: var(--max);
-    margin: 2rem auto 4rem;
-    padding: 2rem;
+.newsletter h2 {
+    font-size: clamp(2.2rem, 4vw, 3.2rem);
+    line-height: 1.05;
+    margin-bottom: .6rem;
+    color: #111111;
+    -webkit-text-fill-color: #111111;
+}
+
+.newsletter-form {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    gap: 1rem;
 
-    background: #ffffff;
-    border: 1px solid #d4b56e;
-    border-radius: 12px;
 }
 
-.newsletter p {
-    color: #6f6f6f;
-}
-
-.newsletter-form { display: grid; gap: 1rem; }
 .newsletter-form label { display: grid; gap: .35rem; font-size: .85rem; }
 .newsletter-form input {
   width: 100%;
