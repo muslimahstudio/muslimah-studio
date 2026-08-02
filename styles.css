@@ -85,16 +85,15 @@ padding: .25rem max(1.25rem, calc((100vw - var(--max)) / 2));
 }
 
 .hero {
-  min-height: 82vh;
-  display: grid;
-  place-items: center;
-  position: relative;
-  overflow: hidden;
-  text-align: center;
-  padding: 7rem 1.25rem;
-  background:
-    radial-gradient(circle at 50% 20%, rgba(195,161,90,.11), transparent 28%),
-    linear-gradient(180deg, #111 0%, #0d0d0d 100%);
+    min-height: 82vh;
+    display: grid;
+    place-items: center;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding: 7rem 1.25rem;
+
+    background: #ffffff;
 }
 
 .hero::before,
