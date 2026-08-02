@@ -810,3 +810,11 @@ footer {
     color: #111111;
     -webkit-text-fill-color: #111111;
 }
+  /* ===== Títulos principales ===== */
+
+.section-heading h2,
+.newsletter h2,
+.footer-brand h2 {
+    color: #111111 !important;
+    -webkit-text-fill-color: #111111 !important;
+}
