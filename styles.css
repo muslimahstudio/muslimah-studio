@@ -33,7 +33,7 @@ img { max-width: 100%; display: block; }
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
-padding: .35rem max(1.25rem, calc((100vw - var(--max)) / 2));
+padding: .25rem max(1.25rem, calc((100vw - var(--max)) / 2));
   background: rgba(13, 13, 13, 0.92);
   backdrop-filter: blur(14px);
  border-bottom: 1px solid var(--gold-soft);
@@ -135,6 +135,9 @@ h1 em { color: var(--gold); font-weight: 500; }
 
 h2 { font-size: clamp(2.6rem, 6vw, 4.6rem); margin-bottom: .75rem; }
 h3 { font-size: 1.8rem; margin-bottom: .55rem; }
+section {
+    scroll-margin-top: 90px;
+}
 
 .hero-text {
   color: var(--muted);
