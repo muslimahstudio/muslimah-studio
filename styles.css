@@ -185,8 +185,16 @@ section {
 }
 
 
-.button-secondary { color: var(--cream); }
-.button-secondary:hover { background: rgba(195,161,90,.1); transform: translateY(-2px); }
+.button-secondary {
+    background: transparent;
+    color: #111111;
+  border: 1px solid #c69c4a;
+}
+
+.button-secondary:hover {
+    background: #d4b56e;
+    color: #111111;
+}
 
 .section {
   max-width: var(--max);
