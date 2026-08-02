@@ -173,17 +173,19 @@ section {
 }
 
 .button-primary {
-    background: #111111;
-    color: #ffffff;
-    border: 1px solid #111111;
-}
-
-.button-primary:hover {
     background: #d4b56e;
     color: #111111;
-    border-color: #d4b56e;
+    border: 1px solid #d4b56e;
+}
+
+
+.button-primary:hover {
+    background: #111111;
+    color: #d4b56e;
+    border-color: #111111;
     transform: translateY(-2px);
 }
+
 
 
 .button-secondary {
