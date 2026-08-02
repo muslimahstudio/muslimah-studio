@@ -172,13 +172,19 @@ section {
 }
 
 .button-primary {
-  .button-primary:hover {
-    background: #c69c4a;
-    border-color: #c69c4a;
-    transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(212,181,110,.30);
+    background: #111111;
+    color: #ffffff;
+    border: 1px solid #111111;
 }
-.button-primary:hover { background: #d4b56e; transform: translateY(-2px); }
+
+.button-primary:hover {
+    background: #d4b56e;
+    color: #111111;
+    border-color: #d4b56e;
+    transform: translateY(-2px);
+}
+
+
 .button-secondary { color: var(--cream); }
 .button-secondary:hover { background: rgba(195,161,90,.1); transform: translateY(-2px); }
 
