@@ -85,15 +85,14 @@ padding: .25rem max(1.25rem, calc((100vw - var(--max)) / 2));
 }
 
 .hero {
-min-height: 64vh;
-padding: 2rem 1.25rem 4rem;
+    min-height: 64vh;
     display: grid;
-    place-items: center;
+    align-items: start;
+    justify-items: center;
     position: relative;
     overflow: hidden;
     text-align: center;
-    padding: 7rem 1.25rem;
-
+    padding: 2rem 1.25rem 4rem;
     background: #ffffff;
 }
 
