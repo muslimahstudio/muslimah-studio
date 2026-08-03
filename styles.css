@@ -1222,3 +1222,37 @@ footer a:hover {
 #contacto .social-links {
     margin: 0 !important;
 }
+/* Eliminar el espacio vacío de Conecta */
+section#contacto {
+    display: block !important;
+    flex: none !important;
+
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+
+    padding: 2rem 1.25rem !important;
+    margin: 0 !important;
+
+    position: relative !important;
+    overflow: hidden !important;
+}
+
+section#contacto .section-heading {
+    margin: 0 0 0.5rem !important;
+}
+
+section#contacto .connect-logo {
+    width: 320px !important;
+    height: 140px !important;
+    margin: 0 auto 1rem !important;
+}
+
+section#contacto .social-links {
+    margin: 0 !important;
+}
+
+section#contacto + .site-footer {
+    margin-top: 0 !important;
+}
