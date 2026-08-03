@@ -893,3 +893,16 @@ footer {
 #ebooks .product-status{
     margin-top:.8rem !important;
 }
+/* Reducir realmente la altura de las portadas de ebooks */
+
+#ebooks .book-cover {
+    aspect-ratio: auto !important;
+    height: 180px !important;
+    min-height: 0 !important;
+    padding: .8rem !important;
+}
+
+#ebooks .book-cover span {
+    font-size: 1.45rem !important;
+    line-height: 1.35 !important;
+}
