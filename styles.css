@@ -1030,3 +1030,9 @@ footer a:hover {
     -webkit-text-fill-color: #7f632f !important;
     border-color: #7f632f !important;
 }
+.footer-logo {
+    width: 220px;
+    height: auto;
+    display: block;
+    margin-bottom: 1rem;
+}
