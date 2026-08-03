@@ -1201,4 +1201,36 @@ footer a:hover {
         grid-template-columns: 1fr !important;
         gap: 1.5rem !important;
     }
+/* Footer minimalista y compacto */
+
+.site-footer {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+}
+
+.site-footer .footer-content {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.site-footer .footer-logo {
+    width: 280px !important;
+    height: auto !important;
+    margin: 0 auto !important;
+}
+
+.site-footer .footer-bottom {
+    text-align: center !important;
+    margin-top: 0 !important;
+    padding-top: 1.25rem !important;
+}
+
+.site-footer .footer-bottom p {
+    margin: 0 0 0.6rem !important;
+}
+
+.site-footer .footer-bottom a {
+    display: inline-block;
 }
