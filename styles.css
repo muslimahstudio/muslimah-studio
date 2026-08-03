@@ -1256,3 +1256,40 @@ section#contacto .social-links {
 section#contacto + .site-footer {
     margin-top: 0 !important;
 }
+/* Footer compacto: elimina el gran espacio vacío */
+.site-footer {
+    min-height: 0 !important;
+    height: auto !important;
+    max-height: none !important;
+
+    display: block !important;
+    padding: 1.5rem 1.25rem !important;
+    margin: 0 !important;
+}
+
+.site-footer .footer-content {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 1rem !important;
+    margin: 0 !important;
+}
+
+.site-footer .footer-brand,
+.site-footer .footer-bottom {
+    width: 100% !important;
+    margin: 0 !important;
+    text-align: center !important;
+}
+
+.site-footer .footer-logo {
+    width: 260px !important;
+    height: auto !important;
+    margin: 0 auto 1rem !important;
+}
+
+.site-footer .footer-bottom {
+    padding-top: 1rem !important;
+}
