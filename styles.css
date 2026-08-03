@@ -1233,3 +1233,15 @@ footer a:hover {
 .site-footer .footer-bottom a {
     display: inline-block;
 }
+.site-footer {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+}
+
+.site-footer .footer-content {
+    margin-bottom: 0.8rem !important;
+}
+
+.site-footer .footer-bottom {
+    padding-top: 0.8rem !important;
+}
