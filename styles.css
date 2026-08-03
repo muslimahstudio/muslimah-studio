@@ -1293,3 +1293,51 @@ section#contacto + .site-footer {
 .site-footer .footer-bottom {
     padding-top: 1rem !important;
 }
+/* Recuperar el diseño claro de las secciones */
+main,
+main section,
+.section,
+.section-alt,
+.about-section,
+.resources-section,
+.newsletter,
+#sobre,
+#recursos,
+#ebooks,
+#cursos,
+#blog,
+#suscripcion,
+#contacto {
+    background: #ffffff !important;
+    color: #111111 !important;
+}
+
+/* Textos oscuros */
+main h1,
+main h2,
+main h3,
+main p,
+main span,
+main summary,
+main label,
+main small {
+    color: #111111 !important;
+    -webkit-text-fill-color: #111111 !important;
+}
+
+/* Mantener los títulos pequeños en dorado */
+main .eyebrow {
+    color: #7f632f !important;
+    -webkit-text-fill-color: #7f632f !important;
+}
+
+/* Mantener la cabecera negra */
+.site-header {
+    background: #0d0d0d !important;
+}
+
+/* Footer blanco */
+.site-footer {
+    background: #ffffff !important;
+    color: #111111 !important;
+}
