@@ -899,7 +899,41 @@ footer a:hover {
 #cursos .card h3 {
     color: #111111 !important;
 }
+/* Ebooks compactos */
 
+#ebooks .product-card {
+    min-height: auto !important;
+    padding: 1rem !important;
+}
+
+#ebooks .book-cover {
+    height: 180px !important;
+    min-height: 0 !important;
+    aspect-ratio: auto !important;
+    padding: 0.8rem !important;
+}
+
+#ebooks .book-cover span {
+    font-size: 1.45rem !important;
+    line-height: 1.35 !important;
+}
+
+#ebooks .product-content h3 {
+    font-size: 1.45rem !important;
+    line-height: 1.2;
+    margin: 0.7rem 0 0.5rem !important;
+}
+
+#ebooks .product-content p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 0.7rem;
+}
+
+#ebooks .product-link,
+#ebooks .product-status {
+    margin-top: auto;
+}
 #cursos .card p {
     color: #555555 !important;
 }
