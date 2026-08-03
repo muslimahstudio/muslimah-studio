@@ -1050,3 +1050,12 @@ footer a:hover {
     height: auto;
     display: block;
 }
+.social-links a {
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+    background: #d4b56e;
+    color: #111111;
+    border-color: #d4b56e;
+}
