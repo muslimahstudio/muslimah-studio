@@ -442,13 +442,28 @@ color: #111;
 .social-links a:hover { border-color: var(--gold); color: var(--gold); }
 
 footer {
-  display: flex;
-  justify-content: space-between;
-  gap: 2rem;
-  padding: 2rem max(1.25rem, calc((100vw - var(--max)) / 2));
-  border-top: 1px solid var(--line);
-  color: var(--muted);
-  font-size: .85rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 2rem max(1.25rem, calc((100vw - var(--max)) / 2));
+    border-top: 1px solid #e5e5e5;
+    background: #ffffff;
+    color: #111111;
+    font-size: .85rem;
+}
+footer,
+footer p,
+footer a,
+footer h2,
+footer h3,
+footer span,
+footer li {
+    color: #111111 !important;
+    -webkit-text-fill-color: #111111 !important;
+}
+
+footer a:hover {
+    color: #7f632f !important;
 }
 
 @media (max-width: 800px) {
