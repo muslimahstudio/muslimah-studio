@@ -1245,3 +1245,8 @@ footer a:hover {
 .site-footer .footer-bottom {
     padding-top: 0.8rem !important;
 }
+/* Reducir espacio de la sección Conecta */
+#contacto {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+}
