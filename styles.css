@@ -757,11 +757,12 @@ footer {
   margin: 1.5rem 0 0.8rem;
   font-size: 1.55rem;
   line-height: 1.25;
+  color: #111111;
 }
 
 .product-card > p {
   margin: 0 0 1.4rem;
-  color: var(--muted);
+  color: #555555;
   line-height: 1.7;
 }
 
@@ -919,4 +920,20 @@ footer {
 #ebooks .book-cover span {
     font-size: 1.45rem !important;
     line-height: 1.35 !important;
+}
+  #cursos .card {
+    background: #ffffff !important;
+    color: #111111 !important;
+}
+
+#cursos .card h3 {
+    color: #111111 !important;
+}
+
+#cursos .card p {
+    color: #555555 !important;
+}
+
+#cursos .status {
+    color: #d4b56e !important;
 }
