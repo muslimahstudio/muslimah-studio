@@ -272,7 +272,7 @@ padding: 3.5rem 1.25rem;
 .status {
   display: inline-block;
   margin-bottom: .9rem;
-  color: var(--gold);
+color: var(--gold);
   font-size: .72rem;
   text-transform: uppercase;
   letter-spacing: .12em;
