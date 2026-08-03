@@ -825,3 +825,30 @@ footer {
     color: #f5f1e8;
     -webkit-text-fill-color: #f5f1e8;
 }
+/* Ebooks más compactos */
+
+#ebooks .product-card {
+    min-height: auto !important;
+    padding: 1rem !important;
+}
+
+#ebooks .book-cover {
+    min-height: 210px !important;
+    padding: 1rem !important;
+}
+
+#ebooks .product-content h3 {
+    font-size: 1.7rem;
+    line-height: 1.15;
+    margin: 1rem 0 .75rem;
+}
+
+#ebooks .product-content p {
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+#ebooks .product-status,
+#ebooks .product-content a {
+    margin-top: auto;
+}
