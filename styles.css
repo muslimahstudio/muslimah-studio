@@ -540,13 +540,13 @@ footer {
   }
   
   .resource-featured .resource-label {
-    color: #9c7b3f;
+   color: #7f632f;
 }
 
 
 .resource-label,
 .resource-number {
-  color: var(--gold);
+ color: #9c7b3f 
   text-transform: uppercase;
   letter-spacing: 0.12em;
   font-size: 0.75rem;
