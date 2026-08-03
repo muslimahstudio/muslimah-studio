@@ -871,3 +871,25 @@ footer {
     line-height: 1.4;
     margin-bottom: .7rem;
 }
+#ebooks .product-card{
+    min-height: auto !important;
+}
+
+#ebooks .book-cover{
+    min-height:170px !important;
+    aspect-ratio:3/4 !important;
+}
+
+#ebooks .product-content p{
+    display:none;
+}
+
+#ebooks .product-content h3{
+    font-size:1.35rem !important;
+    margin:.8rem 0 !important;
+}
+
+#ebooks .product-link,
+#ebooks .product-status{
+    margin-top:.8rem !important;
+}
