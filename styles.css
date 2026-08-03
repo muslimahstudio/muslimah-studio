@@ -1036,3 +1036,17 @@ footer a:hover {
     display: block;
     margin-bottom: 1rem;
 }
+/* Logo sección Conecta */
+
+.connect-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem 0 2.5rem;
+}
+
+.footer-logo {
+    width: 380px;
+    height: auto;
+    display: block;
+}
