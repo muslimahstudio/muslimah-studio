@@ -467,11 +467,11 @@ footer {
     font-size: .85rem;
 }
 .footer-content {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1.4fr 1fr 1fr;
-    gap: 2rem;
-    align-items: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .footer-brand h2 {
@@ -490,10 +490,9 @@ footer {
 }
 
 .footer-bottom {
-    width: 100%;
-    margin-top: 1.5rem;
+    text-align: center;
+    border-top: none;
     padding-top: 1rem;
-    border-top: 1px solid #e5e5e5;
 }
 
 footer a:hover {
