@@ -978,3 +978,55 @@ footer a:hover {
     color: #111111 !important;
     -webkit-text-fill-color: #111111 !important;
 }
+/* ===== PARTE INFERIOR EN BLANCO ===== */
+
+.site-footer,
+.site-footer .footer-content,
+.site-footer .footer-bottom {
+    background: #ffffff !important;
+    color: #111111 !important;
+}
+
+/* Todos los textos del footer */
+.site-footer h2,
+.site-footer h3,
+.site-footer p,
+.site-footer span,
+.site-footer a,
+.site-footer nav {
+    color: #111111 !important;
+    -webkit-text-fill-color: #111111 !important;
+}
+
+/* Enlaces del menú y redes */
+.site-footer .footer-nav a,
+.site-footer .footer-social a {
+    color: #111111 !important;
+    -webkit-text-fill-color: #111111 !important;
+    text-decoration: none;
+}
+
+/* Línea superior y separación inferior */
+.site-footer {
+    border-top: 1px solid #e5e5e5 !important;
+}
+
+.site-footer .footer-bottom {
+    border-top: 1px solid #e5e5e5;
+}
+
+/* Redes sociales que aparecen encima del footer */
+.social-links a {
+    background: #ffffff !important;
+    color: #111111 !important;
+    -webkit-text-fill-color: #111111 !important;
+    border: 1px solid #d8d8d8 !important;
+}
+
+/* Color al pasar el ratón */
+.site-footer a:hover,
+.social-links a:hover {
+    color: #7f632f !important;
+    -webkit-text-fill-color: #7f632f !important;
+    border-color: #7f632f !important;
+}
