@@ -827,25 +827,24 @@ footer {
 }
 /* Ebooks más compactos */
 
-#ebooks .product-card {
-    min-height: auto !important;
-    padding: 1rem !important;
+#ebooks .book-cover {
+    min-height: 170px !important;
+    padding: .8rem !important;
 }
 
-#ebooks .book-cover {
-    min-height: 210px !important;
-    padding: 1rem !important;
+#ebooks .product-card {
+    padding: .8rem !important;
 }
 
 #ebooks .product-content h3 {
-    font-size: 1.7rem;
-    line-height: 1.15;
-    margin: 1rem 0 .75rem;
+    font-size: 1.45rem;
+    margin: .7rem 0 .5rem;
 }
 
 #ebooks .product-content p {
-    line-height: 1.5;
-    margin-bottom: 1rem;
+    font-size: .95rem;
+    line-height: 1.4;
+    margin-bottom: .7rem;
 }
 
 #ebooks .product-status,
