@@ -112,7 +112,7 @@ padding: .25rem max(1.25rem, calc((100vw - var(--max)) / 2));
 .hero-content { max-width: 800px; position: relative; z-index: 2; }
 
 .eyebrow {
-  color: var(--gold);
+ color: #7f632f;
   letter-spacing: .2em;
   text-transform: uppercase;
   font-size: .72rem;
