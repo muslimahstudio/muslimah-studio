@@ -940,13 +940,13 @@ footer {
 /* Textos dorados más visibles en Cursos */
 
 #cursos .eyebrow {
-    color: #9c7b3f !important;
-    -webkit-text-fill-color: #9c7b3f !important;
+    color:#7f632f !important;
+    -webkit-text-fill-color: #7f632f!important;
     font-weight: 700;
 }
 
 #cursos .status {
-    color: #9c7b3f !important;
-    -webkit-text-fill-color: #9c7b3f !important;
+    color:#7f632f !important;
+    -webkit-text-fill-color: #7f632f !important;
     font-weight: 700;
 }
