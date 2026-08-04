@@ -288,6 +288,24 @@ h1 {
     font-size: 1.45rem;
     line-height: 1.6;
 }
+.resources-section {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 6rem 1.25rem;
+}
+
+.resources-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.resource-card {
+    background: #ffffff;
+    border: 1px solid #e5e5e5;
+    padding: 2rem;
+    border-radius: 14px;
+}
 @media (max-width: 850px) {
     .menu-toggle {
         display: inline-flex;
@@ -307,7 +325,14 @@ h1 {
         flex-direction: column;
         align-items: stretch;
     }
+.resources-grid {
+    grid-template-columns: 1fr;
+}
 
+.resources-section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
     .main-nav.open {
         display: flex;
     }
