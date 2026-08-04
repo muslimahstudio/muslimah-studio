@@ -1,27 +1,35 @@
-const toggle = document.querySelector(".menu-toggle");
-const nav = document.querySelector(".main-nav");
+const menuButton = document.querySelector(".menu-toggle");
+const menu = document.querySelector(".main-nav");
 
-if (toggle && nav) {
-    toggle.addEventListener("click", () => {
-        const isOpen = nav.classList.toggle("open");
-        toggle.setAttribute("aria-expanded", String(isOpen));
-    });
+if (menuButton && menu) {
 
-    nav.querySelectorAll("a").forEach((link) => {
-        link.addEventListener("click", () => {
-            nav.classList.remove("open");
-            toggle.setAttribute("aria-expanded", "false");
-        });
-    });
-}
+    menuButton.addEventListener("click", () => {
 
-const newsletterForm = document.querySelector(".newsletter-form");
+        menu.classList.toggle("open");
 
-if (newsletterForm) {
-    newsletterForm.addEventListener("submit", (event) => {
-        event.preventDefault();
-        alert(
-            "Este formulario es una demostración. Después se conectará con Kit."
+        const expanded =
+            menuButton.getAttribute("aria-expanded") === "true";
+
+        menuButton.setAttribute(
+            "aria-expanded",
+            !expanded
         );
+
     });
+
+    menu.querySelectorAll("a").forEach((link) => {
+
+        link.addEventListener("click", () => {
+
+            menu.classList.remove("open");
+
+            menuButton.setAttribute(
+                "aria-expanded",
+                "false"
+            );
+
+        });
+
+    });
+
 }
