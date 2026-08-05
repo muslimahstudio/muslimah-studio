@@ -419,7 +419,9 @@ h1 {
     .menu-toggle {
         display: inline-flex;
     }
-
+.blog-grid {
+    grid-template-columns: 1fr;
+}
     .main-nav {
         display: none;
         position: absolute;
