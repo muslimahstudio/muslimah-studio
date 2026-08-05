@@ -430,9 +430,12 @@ h1 {
 
 .about-summary {
     display: flex;
-    justify-content: space-between;
+ justify-content: flex-start;
     align-items: center;
     gap: 2rem;
+    .about-toggle {
+    margin-left: auto;
+}
     cursor: pointer;
     padding-bottom: 1.5rem;
     border-bottom: 1px solid var(--line);
