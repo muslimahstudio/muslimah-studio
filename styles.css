@@ -250,7 +250,7 @@ h1 {
 .about-section {
     max-width: var(--max-width);
     margin: 0 auto;
-    padding: 3rem 1.25rem;
+    padding: 2rem 1.25rem;
 
     display: grid;
     grid-template-columns: 0.9fr 1.1fr;
