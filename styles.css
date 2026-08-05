@@ -601,7 +601,7 @@ height:420px;
 .site-footer {
     background: #111111;
     color: #ffffff;
-  padding: 2rem 1.25rem 1rem;
+    padding: 2rem 1.25rem 1rem;
 }
 
 .footer-content {
@@ -613,7 +613,8 @@ height:420px;
 }
 
 .footer-logo {
-    width: 170px;
+    width: 220px;
+    display: block;
     margin-bottom: 1rem;
 }
 
