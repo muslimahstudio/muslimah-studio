@@ -18,6 +18,76 @@
     >
 
     <link rel="stylesheet" href="styles.css?v=3">
+    <style>
+.site-footer {
+    background: #111111 !important;
+    color: #ffffff !important;
+    padding: 1.5rem 1.25rem 0.75rem !important;
+}
+
+.site-footer .footer-content {
+    max-width: 1160px;
+    margin: 0 auto;
+    display: grid !important;
+    grid-template-columns: 2fr 1fr 1.5fr !important;
+    gap: 2rem !important;
+    align-items: start;
+}
+
+.site-footer .footer-logo {
+    width: 170px !important;
+    height: auto !important;
+    display: block !important;
+    margin-bottom: 1rem;
+}
+
+.site-footer .footer-brand p,
+.site-footer .footer-newsletter p {
+    color: #bdbdbd !important;
+    line-height: 1.6;
+}
+
+.site-footer .footer-links {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0.6rem !important;
+}
+
+.site-footer .footer-links h4,
+.site-footer .footer-newsletter h4 {
+    color: #d4b56e !important;
+    margin: 0 0 1rem;
+}
+
+.site-footer .footer-links a {
+    color: #dddddd !important;
+    text-decoration: none;
+}
+
+.site-footer .footer-bottom {
+    max-width: 1160px;
+    margin: 1.5rem auto 0 !important;
+    padding-top: 1rem !important;
+    border-top: 1px solid #2a2a2a;
+    text-align: center;
+    color: #888888 !important;
+}
+
+@media (max-width: 850px) {
+    .site-footer .footer-content {
+        grid-template-columns: 1fr !important;
+        text-align: center;
+    }
+
+    .site-footer .footer-links {
+        align-items: center;
+    }
+
+    .site-footer .footer-logo {
+        margin: 0 auto 1rem;
+    }
+}
+</style>
 </head>
 
 <body>
