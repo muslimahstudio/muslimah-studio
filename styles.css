@@ -442,14 +442,14 @@ h1 {
 }
 
 .about-toggle::before {
-    content: "+";
+    content: "⌄";
     color: #d4b56e;
     font-size: 2rem;
-    font-weight: 400;
+    transition: transform .3s ease;
 }
 
 .about-dropdown[open] .about-toggle::before {
-    content: "−";
+    transform: rotate(180deg);
 }
 
 .about-dropdown .about-content {
