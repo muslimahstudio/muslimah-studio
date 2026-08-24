@@ -640,8 +640,8 @@ height:420px;
 
 }
 .site-footer {
-    background: #111111;
-    color: #ffffff;
+   background: var(--white);
+color: var(--text);
 padding: 1.5rem 1.25rem 0.75rem;
 }
 
