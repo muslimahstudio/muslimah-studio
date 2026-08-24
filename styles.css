@@ -40,8 +40,8 @@ a {
 .site-header {
     min-height: 120px;
     padding: 1.5rem max(1.25rem, calc((100vw - var(--max-width)) / 2));
-    background: var(--black);
-    color: var(--white);
+  background: var(--white);
+color: var(--text);
 
     display: flex;
     align-items: center;
@@ -94,7 +94,7 @@ a {
 .menu-toggle {
     display: none;
     background: transparent;
-    color: var(--white);
+  color: var(--text);
     border: 1px solid var(--gold);
     padding: 0.65rem 0.9rem;
     cursor: pointer;
