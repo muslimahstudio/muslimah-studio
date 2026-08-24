@@ -661,13 +661,11 @@ padding: 1.5rem 1.25rem 0.75rem;
 
 .footer-brand p,
 .footer-newsletter p {
-    color: #bdbdbd;
-    line-height: 1.8;
+    color: var(--text);
 }
 
 .footer-links h4,
 .footer-newsletter h4 {
-    margin-bottom: 1rem;
     color: #d4b56e;
 }
 
@@ -678,8 +676,7 @@ padding: 1.5rem 1.25rem 0.75rem;
 }
 
 .footer-links a {
-    color: #dddddd;
-    text-decoration: none;
+    color: var(--text);
 }
 
 .footer-links a:hover {
@@ -691,8 +688,8 @@ padding: 1.5rem 1.25rem 0.75rem;
     margin: 3rem auto 0;
     padding-top: 2rem;
     border-top: 1px solid #2a2a2a;
-    text-align: center;
-    color: #888;
+   .footer-bottom {
+    color: var(--text);
 }
 
 @media (max-width:850px){
